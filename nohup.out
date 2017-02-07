@@ -1,0 +1,1201 @@
+[2016-02-26 14:42:20] INFO  WEBrick 1.3.1
+[2016-02-26 14:42:20] INFO  ruby 1.9.3 (2012-04-20) [i686-linux]
+== Sinatra/1.4.4 has taken the stage on 82 for development with backup from WEBrick
+[2016-02-26 14:42:20] INFO  WEBrick::HTTPServer#start: pid=12646 port=82
+89.248.174.4 - - [04/Mar/2016 16:55:15] "GET / HTTP/1.1" 404 435 0.0108
+89.248.174.4 - - [04/Mar/2016:16:55:15 UTC] "GET / HTTP/1.1" 404 435
+- -> /
+114.112.90.54 - - [11/Mar/2016 21:21:45] "GET / HTTP/1.1" 404 438 0.0036
+114.112.90.54 - - [11/Mar/2016:21:21:45 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+66.240.236.119 - - [13/Mar/2016 08:04:49] "GET / HTTP/1.1" 404 438 0.0036
+census6.shodan.io - - [13/Mar/2016:08:04:49 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+66.240.236.119 - - [13/Mar/2016 08:04:52] "GET /robots.txt HTTP/1.1" 404 448 0.0022
+census6.shodan.io - - [13/Mar/2016:08:04:52 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+66.240.236.119 - - [13/Mar/2016 08:04:52] "GET /sitemap.xml HTTP/1.1" 404 449 0.0012
+census6.shodan.io - - [13/Mar/2016:08:04:52 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+[2016-03-13 08:04:53] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+[2016-03-13 08:04:54] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+[2016-03-20 04:07:31] ERROR bad URI `Public'.
+census3.shodan.io - - [20/Mar/2016:04:07:31 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+198.20.87.98 - - [22/Mar/2016 09:36:56] "GET / HTTP/1.1" 404 438 0.0037
+border.census.shodan.io - - [22/Mar/2016:09:36:56 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+198.20.87.98 - - [22/Mar/2016 09:36:56] "GET /robots.txt HTTP/1.1" 404 448 0.0008
+border.census.shodan.io - - [22/Mar/2016:09:36:56 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+198.20.87.98 - - [22/Mar/2016 09:36:56] "GET /sitemap.xml HTTP/1.1" 404 449 0.0009
+border.census.shodan.io - - [22/Mar/2016:09:36:56 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+[2016-03-22 09:36:56] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+[2016-03-22 09:37:01] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+[2016-04-10 19:30:04] ERROR bad URI `Public'.
+census8.shodan.io - - [10/Apr/2016:19:30:04 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+82.221.105.6 - - [12/Apr/2016 10:41:36] "GET / HTTP/1.1" 404 438 0.0030
+census10.shodan.io - - [12/Apr/2016:10:41:36 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+82.221.105.6 - - [12/Apr/2016 10:41:37] "GET /robots.txt HTTP/1.1" 404 448 0.0007
+census10.shodan.io - - [12/Apr/2016:10:41:37 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+82.221.105.6 - - [12/Apr/2016 10:41:37] "GET /sitemap.xml HTTP/1.1" 404 449 0.0017
+census10.shodan.io - - [12/Apr/2016:10:41:37 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+60.11.115.233 - - [15/Apr/2016 08:25:15] "GET /manager/html HTTP/1.1" 404 450 0.0033
+60.11.115.233 - - [15/Apr/2016:08:25:15 UTC] "GET /manager/html HTTP/1.1" 404 450
+- -> /manager/html
+[2016-04-15 23:39:23] ERROR bad URI `Public'.
+ubuntu14219146.aspadmin.net - - [15/Apr/2016:23:39:23 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-04-15 23:39:41] ERROR bad URI `Public'.
+ubuntu14219146.aspadmin.net - - [15/Apr/2016:23:39:41 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-04-15 23:39:54] ERROR bad URI `Public'.
+ubuntu14219146.aspadmin.net - - [15/Apr/2016:23:39:54 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-04-17 04:12:05] ERROR bad URI `Public'.
+rim.census.shodan.io - - [17/Apr/2016:04:12:05 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+124.232.150.230 - - [21/Apr/2016 17:42:02] "GET / HTTP/1.1" 404 438 0.0054
+124.232.150.230 - - [21/Apr/2016:17:42:02 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+124.232.150.230 - - [21/Apr/2016 17:42:04] "GET /robots.txt HTTP/1.1" 404 448 0.0032
+124.232.150.230 - - [21/Apr/2016:17:42:04 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+[2016-04-21 17:42:04] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+[2016-04-21 23:19:23] ERROR bad URI `Public'.
+census3.shodan.io - - [21/Apr/2016:23:19:23 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+213.55.105.85 - - [26/Apr/2016 17:08:10] "GET / HTTP/1.1" 404 438 0.0061
+213.55.105.85 - - [26/Apr/2016:17:08:10 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+213.55.105.85 - - [26/Apr/2016 17:08:11] "GET /__sinatra__/404.png HTTP/1.1" 200 18893 0.0048
+213.55.105.85 - - [26/Apr/2016:17:08:11 UTC] "GET /__sinatra__/404.png HTTP/1.1" 200 18893
+http://107.170.0.82:82/ -> /__sinatra__/404.png
+213.55.105.85 - - [26/Apr/2016 17:08:11] "GET /favicon.ico HTTP/1.1" 404 449 0.0011
+213.55.105.85 - - [26/Apr/2016:17:08:11 UTC] "GET /favicon.ico HTTP/1.1" 404 449
+- -> /favicon.ico
+213.55.105.85 - - [26/Apr/2016 17:08:12] "GET /favicon.ico HTTP/1.1" 404 449 0.0008
+213.55.105.85 - - [26/Apr/2016:17:08:12 UTC] "GET /favicon.ico HTTP/1.1" 404 449
+- -> /favicon.ico
+198.20.87.98 - - [01/May/2016 07:49:19] "GET / HTTP/1.1" 404 438 0.0049
+border.census.shodan.io - - [01/May/2016:07:49:19 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+198.20.87.98 - - [01/May/2016 07:49:19] "GET /robots.txt HTTP/1.1" 404 448 0.0014
+border.census.shodan.io - - [01/May/2016:07:49:19 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+198.20.87.98 - - [01/May/2016 07:49:19] "GET /sitemap.xml HTTP/1.1" 404 449 0.0013
+border.census.shodan.io - - [01/May/2016:07:49:19 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+[2016-05-01 07:49:20] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+[2016-05-02 04:52:02] ERROR bad Request-Line `\x16\x03\x01\x00\x7F\x01\x00\x00{\x03\x03p˜ð'.
+222.235.67.147 - - [02/May/2016:04:52:02 UTC] "\x16\x03\x01\x00\x7F\x01\x00\x00{\x03\x03p˜ð" 400 322
+- -> 
+222.235.67.147 - - [02/May/2016 04:52:04] "GET / HTTP/1.1" 404 435 0.0016
+222.235.67.147 - - [02/May/2016:04:52:04 UTC] "GET / HTTP/1.0" 404 435
+- -> /
+222.235.67.147 - - [02/May/2016 04:52:05] "GET / HTTP/1.1" 404 438 0.0007
+222.235.67.147 - - [02/May/2016:04:52:05 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+222.235.67.147 - - [02/May/2016 04:52:07] "GET /CHANGELOG.txt HTTP/1.1" 404 451 0.0006
+222.235.67.147 - - [02/May/2016:04:52:07 UTC] "GET /CHANGELOG.txt HTTP/1.1" 404 451
+- -> /CHANGELOG.txt
+222.235.67.147 - - [02/May/2016 04:52:08] "GET / HTTP/1.1" 404 438 0.0007
+222.235.67.147 - - [02/May/2016:04:52:08 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+222.235.67.147 - - [02/May/2016 04:52:10] "GET /readme.html HTTP/1.1" 404 449 0.0020
+222.235.67.147 - - [02/May/2016:04:52:10 UTC] "GET /readme.html HTTP/1.1" 404 449
+- -> /readme.html
+222.235.67.147 - - [02/May/2016 04:52:11] "GET / HTTP/1.1" 404 438 0.0006
+222.235.67.147 - - [02/May/2016:04:52:11 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+222.235.67.147 - - [02/May/2016 04:52:13] "GET /language/Swedish$%7BIFS%7D&&echo$%7BIFS%7D6SKF%3EMRBr&&tar$%7BIFS%7D/string.js HTTP/1.1" 404 516 0.0009
+222.235.67.147 - - [02/May/2016:04:52:13 UTC] "GET /language/Swedish$%7BIFS%7D&&echo$%7BIFS%7D6SKF%3EMRBr&&tar$%7BIFS%7D/string.js HTTP/1.1" 404 516
+- -> /language/Swedish$%7BIFS%7D&&echo$%7BIFS%7D6SKF%3EMRBr&&tar$%7BIFS%7D/string.js
+[2016-05-02 04:52:14] ERROR bad URI `/../../../../../../../mnt/mtd/MRBr'.
+222.235.67.147 - - [02/May/2016:04:52:14 UTC] "GET /../../../../../../../mnt/mtd/MRBr HTTP/1.1" 400 303
+- -> /../../../../../../../mnt/mtd/MRBr
+222.235.67.147 - - [02/May/2016 04:52:16] "GET / HTTP/1.1" 404 438 0.0015
+222.235.67.147 - - [02/May/2016:04:52:16 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+94.102.49.164 - - [04/May/2016 08:50:30] "GET / HTTP/1.1" 404 438 0.0008
+no-reverse-dns-configured.com - - [04/May/2016:08:50:30 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+162.216.46.13 - - [04/May/2016 20:26:29] "GET /check_content HTTP/1.1" 404 454 0.0024
+162.216.46.13 - - [04/May/2016:20:26:29 UTC] "GET http://prxs.forwardurl.cf/check_content HTTP/1.1" 404 454
+- -> http://prxs.forwardurl.cf/check_content
+[2016-05-07 05:02:29] ERROR bad URI `Public'.
+border.census.shodan.io - - [07/May/2016:05:02:29 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-05-08 04:48:36] ERROR bad Request-Line `\x16\x03\x01\x01"\x01\x00\x01\x1E\x03\x03±î-«Z4~ˆÛ\x02\x01(¨\x11\a\x7F–'÷ù¸”\x14Ô\x02Ûî¾ÝÖK\x1D\x00\x00ˆÀ0À,À(À$À\x14À'.
+118.193.27.26 - - [08/May/2016:04:48:36 UTC] "\x16\x03\x01\x01"\x01\x00\x01\x1E\x03\x03±î-«Z4~ˆÛ\x02\x01(¨\x11\a\x7F–'÷ù¸”\x14Ô\x02Ûî¾ÝÖK\x1D\x00\x00ˆÀ0À,À(À$À\x14À" 400 401
+- -> 
+[2016-05-08 04:48:39] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+118.193.27.26 - - [08/May/2016 04:48:39] "GET / HTTP/1.1" 404 438 0.0010
+118.193.27.26 - - [08/May/2016:04:48:39 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-05-08 04:48:40] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+50.30.32.186 - - [10/May/2016 23:59:46] "GET / HTTP/1.1" 404 438 0.0008
+mrnetwork.de - - [10/May/2016:23:59:46 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-05-11 02:21:01] ERROR bad Request-Line `\x16\x03\x01\x00\x7F\x01\x00\x00{\x03\x03™+.f¦\fþ¡:b\x14 ®ÅÍK\x06Ñ»Þtªóò©Ú„0E¬mO\x00\x00\x1CÀ/À+À0À,À\x13À\tÀ\x14À'.
+139.129.18.107 - - [11/May/2016:02:21:01 UTC] "\x16\x03\x01\x00\x7F\x01\x00\x00{\x03\x03™+.f¦\fþ¡:b\x14 ®ÅÍK\x06Ñ»Þtªóò©Ú„0E¬mO\x00\x00\x1CÀ/À+À0À,À\x13À\tÀ\x14À" 400 392
+- -> 
+64.31.1.3 - - [14/May/2016 22:11:56] "GET /check_content HTTP/1.1" 404 454 0.0082
+naboo.mktrn.net - - [14/May/2016:22:11:56 UTC] "GET http://prxs.forwardurl.cf/check_content HTTP/1.1" 404 454
+- -> http://prxs.forwardurl.cf/check_content
+[2016-05-15 09:40:49] ERROR bad URI `Public'.
+ninja.census.shodan.io - - [15/May/2016:09:40:49 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-05-15 09:41:04] ERROR bad URI `Public'.
+burger.census.shodan.io - - [15/May/2016:09:41:04 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-05-20 23:48:37] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+45.33.9.34 - - [20/May/2016 23:48:37] "GET / HTTP/1.1" 404 438 0.0055
+li963-34.members.linode.com - - [20/May/2016:23:48:37 UTC] "GET / HTTP/1.0" 404 438
+- -> /
+[2016-05-25 01:06:45] ERROR bad URI `Public'.
+atlantic626.dedicatedpanel.com - - [25/May/2016:01:06:45 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+71.6.146.185 - - [28/May/2016 21:48:13] "GET / HTTP/1.1" 404 438 0.0059
+pirate.census.shodan.io - - [28/May/2016:21:48:13 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+71.6.146.185 - - [28/May/2016 21:48:14] "GET /robots.txt HTTP/1.1" 404 448 0.0017
+pirate.census.shodan.io - - [28/May/2016:21:48:14 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+71.6.146.185 - - [28/May/2016 21:48:14] "GET /sitemap.xml HTTP/1.1" 404 449 0.0006
+pirate.census.shodan.io - - [28/May/2016:21:48:14 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+94.102.49.164 - - [29/May/2016 12:48:55] "GET / HTTP/1.1" 404 438 0.0027
+no-reverse-dns-configured.com - - [29/May/2016:12:48:55 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-05-30 22:35:00] ERROR bad URI `Public'.
+census2.shodan.io - - [30/May/2016:22:35:00 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+71.6.146.185 - - [09/Jun/2016 03:45:58] "GET / HTTP/1.1" 404 438 0.0038
+pirate.census.shodan.io - - [09/Jun/2016:03:45:58 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+71.6.146.185 - - [09/Jun/2016 03:45:59] "GET /robots.txt HTTP/1.1" 404 448 0.0014
+pirate.census.shodan.io - - [09/Jun/2016:03:45:59 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+71.6.146.185 - - [09/Jun/2016 03:45:59] "GET /sitemap.xml HTTP/1.1" 404 449 0.0012
+pirate.census.shodan.io - - [09/Jun/2016:03:45:59 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+212.83.148.18 - - [13/Jun/2016 14:03:04] "GET / HTTP/1.1" 404 438 0.0056
+212-83-148-18.rev.poneytelecom.eu - - [13/Jun/2016:14:03:04 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+104.148.61.9 - - [16/Jun/2016 03:27:11] "GET / HTTP/1.1" 404 438 0.0052
+a9.898sale.com - - [16/Jun/2016:03:27:11 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-06-16 03:27:16] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+64.31.1.3 - - [22/Jun/2016 23:09:56] "GET /check_content HTTP/1.1" 404 454 0.0076
+naboo.mktrn.net - - [22/Jun/2016:23:09:56 UTC] "GET http://x.clixtraff.online/check_content HTTP/1.1" 404 454
+- -> http://x.clixtraff.online/check_content
+71.6.135.131 - - [23/Jun/2016 09:51:02] "GET / HTTP/1.1" 404 438 0.0038
+census7.shodan.io - - [23/Jun/2016:09:51:02 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+71.6.135.131 - - [23/Jun/2016 09:51:03] "GET /robots.txt HTTP/1.1" 404 448 0.0015
+census7.shodan.io - - [23/Jun/2016:09:51:03 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+71.6.135.131 - - [23/Jun/2016 09:51:03] "GET /sitemap.xml HTTP/1.1" 404 449 0.0007
+census7.shodan.io - - [23/Jun/2016:09:51:03 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+71.6.165.200 - - [29/Jun/2016 10:30:30] "GET / HTTP/1.1" 404 438 0.0091
+census12.shodan.io - - [29/Jun/2016:10:30:30 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+71.6.165.200 - - [29/Jun/2016 10:30:30] "GET /robots.txt HTTP/1.1" 404 448 0.0013
+census12.shodan.io - - [29/Jun/2016:10:30:30 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+71.6.165.200 - - [29/Jun/2016 10:30:31] "GET /sitemap.xml HTTP/1.1" 404 449 0.0013
+census12.shodan.io - - [29/Jun/2016:10:30:31 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+212.83.181.234 - - [05/Jul/2016 18:49:25] "GET / HTTP/1.1" 404 438 0.0083
+212-83-181-234.rev.poneytelecom.eu - - [05/Jul/2016:18:49:25 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-07-06 20:51:42] ERROR bad URI `Public'.
+census7.shodan.io - - [06/Jul/2016:20:51:42 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-07-08 15:07:17] ERROR bad URI `Public'.
+no-reverse-dns-configured.com - - [08/Jul/2016:15:07:17 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+212.83.181.234 - - [10/Jul/2016 23:18:15] "GET / HTTP/1.1" 404 438 0.0047
+212-83-181-234.rev.poneytelecom.eu - - [10/Jul/2016:23:18:15 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+198.20.69.74 - - [21/Jul/2016 14:03:27] "GET / HTTP/1.1" 404 438 0.0051
+census1.shodan.io - - [21/Jul/2016:14:03:27 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+198.20.69.74 - - [21/Jul/2016 14:03:27] "GET /robots.txt HTTP/1.1" 404 448 0.0008
+census1.shodan.io - - [21/Jul/2016:14:03:27 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+198.20.69.74 - - [21/Jul/2016 14:03:27] "GET /sitemap.xml HTTP/1.1" 404 449 0.0012
+census1.shodan.io - - [21/Jul/2016:14:03:27 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+[2016-07-31 00:36:34] ERROR bad URI `Public'.
+census7.shodan.io - - [31/Jul/2016:00:36:34 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+93.174.95.106 - - [04/Aug/2016 13:11:18] "GET / HTTP/1.1" 404 438 0.0054
+93.174.95.106 - - [04/Aug/2016:13:11:18 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+93.174.95.106 - - [04/Aug/2016 13:11:19] "GET /robots.txt HTTP/1.1" 404 448 0.0009
+93.174.95.106 - - [04/Aug/2016:13:11:19 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+93.174.95.106 - - [04/Aug/2016 13:11:19] "GET /sitemap.xml HTTP/1.1" 404 449 0.0012
+93.174.95.106 - - [04/Aug/2016:13:11:19 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+[2016-08-04 13:11:19] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+90.127.251.235 - - [06/Aug/2016 21:25:52] "GET /mjpg/video.mjpg?COUNTER HTTP/1.1" 404 453 0.0017
+LFbn-1-3499-235.w90-127.abo.wanadoo.fr - - [06/Aug/2016:21:25:52 UTC] "GET /mjpg/video.mjpg?COUNTER HTTP/1.0" 404 453
+- -> /mjpg/video.mjpg?COUNTER
+90.127.251.235 - - [06/Aug/2016 21:25:53] "GET /SnapshotJPEG?Resolution=640x480 HTTP/1.1" 404 450 0.0011
+LFbn-1-3499-235.w90-127.abo.wanadoo.fr - - [06/Aug/2016:21:25:53 UTC] "GET /SnapshotJPEG?Resolution=640x480 HTTP/1.0" 404 450
+- -> /SnapshotJPEG?Resolution=640x480
+90.127.251.235 - - [06/Aug/2016 21:25:53] "GET /cgi-bin/camera?resolution=640&amp;amp;quality=1&amp;amp;Language=0&amp;amp;COUNTER HTTP/1.1" 404 452 0.0013
+LFbn-1-3499-235.w90-127.abo.wanadoo.fr - - [06/Aug/2016:21:25:53 UTC] "GET /cgi-bin/camera?resolution=640&amp;amp;quality=1&amp;amp;Language=0&amp;amp;COUNTER HTTP/1.0" 404 452
+- -> /cgi-bin/camera?resolution=640&amp;amp;quality=1&amp;amp;Language=0&amp;amp;COUNTER
+90.127.251.235 - - [06/Aug/2016 21:25:54] "GET /img/video.mjpeg?COUNTER HTTP/1.1" 404 453 0.0011
+LFbn-1-3499-235.w90-127.abo.wanadoo.fr - - [06/Aug/2016:21:25:54 UTC] "GET /img/video.mjpeg?COUNTER HTTP/1.0" 404 453
+- -> /img/video.mjpeg?COUNTER
+90.127.251.235 - - [06/Aug/2016 21:25:54] "GET /oneshotimage1?COUNTER HTTP/1.1" 404 451 0.0007
+LFbn-1-3499-235.w90-127.abo.wanadoo.fr - - [06/Aug/2016:21:25:54 UTC] "GET /oneshotimage1?COUNTER HTTP/1.0" 404 451
+- -> /oneshotimage1?COUNTER
+90.127.251.235 - - [06/Aug/2016 21:25:55] "GET /jpg/image.jpg?COUNTER HTTP/1.1" 404 451 0.0009
+LFbn-1-3499-235.w90-127.abo.wanadoo.fr - - [06/Aug/2016:21:25:55 UTC] "GET /jpg/image.jpg?COUNTER HTTP/1.0" 404 451
+- -> /jpg/image.jpg?COUNTER
+90.127.251.235 - - [06/Aug/2016 21:25:55] "GET /videostream.cgi?user=admin&pwd= HTTP/1.1" 404 453 0.0013
+LFbn-1-3499-235.w90-127.abo.wanadoo.fr - - [06/Aug/2016:21:25:55 UTC] "GET /videostream.cgi?user=admin&pwd= HTTP/1.0" 404 453
+- -> /videostream.cgi?user=admin&pwd=
+90.127.251.235 - - [06/Aug/2016 21:25:55] "GET /IMAGE.JPG?COUNTER HTTP/1.1" 404 447 0.0007
+LFbn-1-3499-235.w90-127.abo.wanadoo.fr - - [06/Aug/2016:21:25:55 UTC] "GET /IMAGE.JPG?COUNTER HTTP/1.0" 404 447
+- -> /IMAGE.JPG?COUNTER
+90.127.251.235 - - [06/Aug/2016 21:25:55] "GET /control/userimage.html HTTP/1.1" 404 460 0.0007
+LFbn-1-3499-235.w90-127.abo.wanadoo.fr - - [06/Aug/2016:21:25:55 UTC] "GET /control/userimage.html HTTP/1.0" 404 460
+- -> /control/userimage.html
+90.127.251.235 - - [06/Aug/2016 21:25:56] "GET /control/userimage.html HTTP/1.1" 404 460 0.0007
+LFbn-1-3499-235.w90-127.abo.wanadoo.fr - - [06/Aug/2016:21:25:56 UTC] "GET /control/userimage.html HTTP/1.0" 404 460
+- -> /control/userimage.html
+90.127.251.235 - - [06/Aug/2016 21:25:56] "GET /home/homeJ.html HTTP/1.1" 404 453 0.0016
+LFbn-1-3499-235.w90-127.abo.wanadoo.fr - - [06/Aug/2016:21:25:56 UTC] "GET /home/homeJ.html HTTP/1.0" 404 453
+- -> /home/homeJ.html
+90.127.251.235 - - [06/Aug/2016 21:25:56] "GET / HTTP/1.1" 404 438 0.0009
+LFbn-1-3499-235.w90-127.abo.wanadoo.fr - - [06/Aug/2016:21:25:56 UTC] "GET / HTTP/1.0" 404 438
+- -> /
+149.202.199.224 - - [07/Aug/2016 06:11:21] "GET / HTTP/1.1" 404 438 0.0015
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:21 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+149.202.199.224 - - [07/Aug/2016 06:11:21] "GET /script HTTP/1.1" 404 444 0.0008
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:21 UTC] "GET /script HTTP/1.1" 404 444
+- -> /script
+149.202.199.224 - - [07/Aug/2016 06:11:22] "GET /jenkins/script HTTP/1.1" 404 452 0.0011
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:22 UTC] "GET /jenkins/script HTTP/1.1" 404 452
+- -> /jenkins/script
+149.202.199.224 - - [07/Aug/2016 06:11:22] "GET /hudson/script HTTP/1.1" 404 451 0.0007
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:22 UTC] "GET /hudson/script HTTP/1.1" 404 451
+- -> /hudson/script
+149.202.199.224 - - [07/Aug/2016 06:11:22] "GET /login HTTP/1.1" 404 443 0.0006
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:22 UTC] "GET /login HTTP/1.1" 404 443
+- -> /login
+149.202.199.224 - - [07/Aug/2016 06:11:22] "GET /jenkins/login HTTP/1.1" 404 451 0.0011
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:22 UTC] "GET /jenkins/login HTTP/1.1" 404 451
+- -> /jenkins/login
+149.202.199.224 - - [07/Aug/2016 06:11:22] "GET /hudson/login HTTP/1.1" 404 450 0.0008
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:22 UTC] "GET /hudson/login HTTP/1.1" 404 450
+- -> /hudson/login
+149.202.199.224 - - [07/Aug/2016 06:11:23] "GET /jmx-console HTTP/1.1" 404 449 0.0017
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:23 UTC] "GET /jmx-console HTTP/1.1" 404 449
+- -> /jmx-console
+149.202.199.224 - - [07/Aug/2016 06:11:23] "GET /manager/html HTTP/1.1" 404 450 0.0008
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:23 UTC] "GET /manager/html HTTP/1.1" 404 450
+- -> /manager/html
+149.202.199.224 - - [07/Aug/2016 06:11:23] "GET /msd HTTP/1.1" 404 441 0.0007
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:23 UTC] "GET /msd HTTP/1.1" 404 441
+- -> /msd
+149.202.199.224 - - [07/Aug/2016 06:11:23] "GET /mySqlDumper HTTP/1.1" 404 449 0.0007
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:23 UTC] "GET /mySqlDumper HTTP/1.1" 404 449
+- -> /mySqlDumper
+149.202.199.224 - - [07/Aug/2016 06:11:24] "GET /msd1.24stable HTTP/1.1" 404 451 0.0010
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:24 UTC] "GET /msd1.24stable HTTP/1.1" 404 451
+- -> /msd1.24stable
+149.202.199.224 - - [07/Aug/2016 06:11:24] "GET /msd1.24.4 HTTP/1.1" 404 447 0.0010
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:24 UTC] "GET /msd1.24.4 HTTP/1.1" 404 447
+- -> /msd1.24.4
+149.202.199.224 - - [07/Aug/2016 06:11:24] "GET /mysqldumper HTTP/1.1" 404 449 0.0011
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:24 UTC] "GET /mysqldumper HTTP/1.1" 404 449
+- -> /mysqldumper
+149.202.199.224 - - [07/Aug/2016 06:11:24] "GET /MySQLDumper HTTP/1.1" 404 449 0.0010
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:24 UTC] "GET /MySQLDumper HTTP/1.1" 404 449
+- -> /MySQLDumper
+149.202.199.224 - - [07/Aug/2016 06:11:24] "GET /mysql HTTP/1.1" 404 443 0.0007
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:24 UTC] "GET /mysql HTTP/1.1" 404 443
+- -> /mysql
+149.202.199.224 - - [07/Aug/2016 06:11:24] "GET /sql HTTP/1.1" 404 441 0.0011
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:24 UTC] "GET /sql HTTP/1.1" 404 441
+- -> /sql
+149.202.199.224 - - [07/Aug/2016 06:11:25] "GET /phpmyadmin HTTP/1.1" 404 448 0.0007
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:25 UTC] "GET /phpmyadmin HTTP/1.1" 404 448
+- -> /phpmyadmin
+149.202.199.224 - - [07/Aug/2016 06:11:25] "GET /phpMyAdmin HTTP/1.1" 404 448 0.0007
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:25 UTC] "GET /phpMyAdmin HTTP/1.1" 404 448
+- -> /phpMyAdmin
+149.202.199.224 - - [07/Aug/2016 06:11:25] "GET /mysql HTTP/1.1" 404 443 0.0015
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:25 UTC] "GET /mysql HTTP/1.1" 404 443
+- -> /mysql
+149.202.199.224 - - [07/Aug/2016 06:11:25] "GET /sql HTTP/1.1" 404 441 0.0016
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:25 UTC] "GET /sql HTTP/1.1" 404 441
+- -> /sql
+149.202.199.224 - - [07/Aug/2016 06:11:25] "GET /myadmin HTTP/1.1" 404 445 0.0010
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:25 UTC] "GET /myadmin HTTP/1.1" 404 445
+- -> /myadmin
+149.202.199.224 - - [07/Aug/2016 06:11:26] "GET /phpMyAdmin-4.2.1-all-languages HTTP/1.1" 404 468 0.0007
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:26 UTC] "GET /phpMyAdmin-4.2.1-all-languages HTTP/1.1" 404 468
+- -> /phpMyAdmin-4.2.1-all-languages
+149.202.199.224 - - [07/Aug/2016 06:11:26] "GET /phpMyAdmin-4.2.1-english HTTP/1.1" 404 462 0.0011
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:26 UTC] "GET /phpMyAdmin-4.2.1-english HTTP/1.1" 404 462
+- -> /phpMyAdmin-4.2.1-english
+149.202.199.224 - - [07/Aug/2016 06:11:26] "GET / HTTP/1.1" 404 438 0.0015
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:26 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+149.202.199.224 - - [07/Aug/2016 06:11:26] "GET /sqlite/main.php HTTP/1.1" 404 453 0.0006
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:26 UTC] "GET /sqlite/main.php HTTP/1.1" 404 453
+- -> /sqlite/main.php
+149.202.199.224 - - [07/Aug/2016 06:11:26] "GET /SQLite/SQLiteManager-1.2.4/main.php HTTP/1.1" 404 473 0.0011
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:26 UTC] "GET /SQLite/SQLiteManager-1.2.4/main.php HTTP/1.1" 404 473
+- -> /SQLite/SQLiteManager-1.2.4/main.php
+149.202.199.224 - - [07/Aug/2016 06:11:27] "GET /SQLiteManager-1.2.4/main.php HTTP/1.1" 404 466 0.0011
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:27 UTC] "GET /SQLiteManager-1.2.4/main.php HTTP/1.1" 404 466
+- -> /SQLiteManager-1.2.4/main.php
+149.202.199.224 - - [07/Aug/2016 06:11:27] "GET /sqlitemanager/main.php HTTP/1.1" 404 460 0.0007
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:27 UTC] "GET /sqlitemanager/main.php HTTP/1.1" 404 460
+- -> /sqlitemanager/main.php
+149.202.199.224 - - [07/Aug/2016 06:11:27] "GET /SQlite/main.php HTTP/1.1" 404 453 0.0011
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:27 UTC] "GET /SQlite/main.php HTTP/1.1" 404 453
+- -> /SQlite/main.php
+149.202.199.224 - - [07/Aug/2016 06:11:27] "GET /SQLiteManager/main.php HTTP/1.1" 404 460 0.0015
+ns3027711.ip-149-202-199.eu - - [07/Aug/2016:06:11:27 UTC] "GET /SQLiteManager/main.php HTTP/1.1" 404 460
+- -> /SQLiteManager/main.php
+176.31.90.149 - - [07/Aug/2016 12:07:40] "GET / HTTP/1.1" 404 438 0.0017
+ip149.ip-176-31-90.eu - - [07/Aug/2016:12:07:40 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+176.31.90.149 - - [07/Aug/2016 12:07:40] "GET /wp-login.php HTTP/1.1" 404 450 0.0006
+ip149.ip-176-31-90.eu - - [07/Aug/2016:12:07:40 UTC] "GET //wp-login.php HTTP/1.1" 404 450
+- -> /wp-login.php
+176.31.90.149 - - [07/Aug/2016 12:07:40] "GET /wordpress/wp-login.php HTTP/1.1" 404 460 0.0006
+ip149.ip-176-31-90.eu - - [07/Aug/2016:12:07:40 UTC] "GET /wordpress/wp-login.php HTTP/1.1" 404 460
+- -> /wordpress/wp-login.php
+176.31.90.149 - - [07/Aug/2016 12:07:41] "GET /wp/wp-login.php HTTP/1.1" 404 453 0.0007
+ip149.ip-176-31-90.eu - - [07/Aug/2016:12:07:41 UTC] "GET /wp/wp-login.php HTTP/1.1" 404 453
+- -> /wp/wp-login.php
+176.31.90.149 - - [07/Aug/2016 12:07:41] "GET /blog/wp-login.php HTTP/1.1" 404 455 0.0007
+ip149.ip-176-31-90.eu - - [07/Aug/2016:12:07:41 UTC] "GET /blog/wp-login.php HTTP/1.1" 404 455
+- -> /blog/wp-login.php
+176.31.90.149 - - [07/Aug/2016 12:07:41] "GET /Wordpress/wp-login.php HTTP/1.1" 404 460 0.0006
+ip149.ip-176-31-90.eu - - [07/Aug/2016:12:07:41 UTC] "GET /Wordpress/wp-login.php HTTP/1.1" 404 460
+- -> /Wordpress/wp-login.php
+176.31.90.149 - - [07/Aug/2016 12:07:41] "GET /Blog/wp-login.php HTTP/1.1" 404 455 0.0007
+ip149.ip-176-31-90.eu - - [07/Aug/2016:12:07:41 UTC] "GET /Blog/wp-login.php HTTP/1.1" 404 455
+- -> /Blog/wp-login.php
+176.31.90.149 - - [07/Aug/2016 12:07:41] "GET /wp-admin//wp-login.php HTTP/1.1" 404 459 0.0009
+ip149.ip-176-31-90.eu - - [07/Aug/2016:12:07:41 UTC] "GET /wp-admin//wp-login.php HTTP/1.1" 404 459
+- -> /wp-admin//wp-login.php
+176.31.90.149 - - [07/Aug/2016 12:07:42] "GET /word/wp-login.php HTTP/1.1" 404 455 0.0006
+ip149.ip-176-31-90.eu - - [07/Aug/2016:12:07:42 UTC] "GET /word/wp-login.php HTTP/1.1" 404 455
+- -> /word/wp-login.php
+104.192.0.20 - - [09/Aug/2016 07:19:47] "GET / HTTP/1.1" 404 425 0.0014
+104.192.0.20 - - [09/Aug/2016:07:19:47 UTC] "GET / HTTP/1.1" 404 425
+- -> /
+[2016-08-09 07:20:17] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+80.82.65.212 - - [11/Aug/2016 06:20:13] "GET / HTTP/1.1" 404 438 0.0016
+no-reverse-dns-configured.com - - [11/Aug/2016:06:20:13 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-08-12 09:00:19] ERROR bad URI `Public'.
+census2.shodan.io - - [12/Aug/2016:09:00:19 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-08-12 18:28:47] ERROR bad URI `Public'.
+census9.shodan.io - - [12/Aug/2016:18:28:47 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+81.198.255.155 - - [19/Aug/2016 06:51:43] "GET /status HTTP/1.1" 404 444 0.0068
+81.198.255.155 - - [19/Aug/2016:06:51:43 UTC] "GET /status HTTP/1.1" 404 444
+- -> /status
+81.198.255.155 - - [19/Aug/2016 06:51:49] "GET /stat HTTP/1.1" 404 442 0.0018
+81.198.255.155 - - [19/Aug/2016:06:51:49 UTC] "GET /stat HTTP/1.1" 404 442
+- -> /stat
+81.198.255.155 - - [19/Aug/2016 08:28:07] "GET /play/a01u HTTP/1.1" 404 447 0.0034
+81.198.255.155 - - [19/Aug/2016:08:28:07 UTC] "GET /play/a01u HTTP/1.1" 404 447
+- -> /play/a01u
+94.102.49.190 - - [22/Aug/2016 01:59:05] "GET / HTTP/1.1" 404 438 0.0016
+no-reverse-dns-configured.com - - [22/Aug/2016:01:59:05 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+94.102.49.190 - - [22/Aug/2016 01:59:06] "GET /robots.txt HTTP/1.1" 404 448 0.0019
+no-reverse-dns-configured.com - - [22/Aug/2016:01:59:06 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+94.102.49.190 - - [22/Aug/2016 01:59:07] "GET /sitemap.xml HTTP/1.1" 404 449 0.0010
+no-reverse-dns-configured.com - - [22/Aug/2016:01:59:07 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+[2016-08-22 01:59:07] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+[2016-08-22 01:59:07] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+93.174.89.19 - - [22/Aug/2016 13:37:22] "GET / HTTP/1.1" 404 451 0.0041
+no-reverse-dns-configured.com - - [22/Aug/2016:13:37:22 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-08-23 15:06:12] ERROR bad URI `Public'.
+census12.shodan.io - - [23/Aug/2016:15:06:12 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+198.20.69.74 - - [24/Aug/2016 00:28:53] "GET / HTTP/1.1" 404 438 0.0031
+census1.shodan.io - - [24/Aug/2016:00:28:53 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+198.20.69.74 - - [24/Aug/2016 00:28:53] "GET /robots.txt HTTP/1.1" 404 448 0.0023
+census1.shodan.io - - [24/Aug/2016:00:28:53 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+198.20.69.74 - - [24/Aug/2016 00:28:53] "GET /sitemap.xml HTTP/1.1" 404 449 0.0017
+census1.shodan.io - - [24/Aug/2016:00:28:53 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+64.31.1.3 - - [28/Aug/2016 01:50:34] "GET /check_content HTTP/1.1" 404 454 0.0051
+naboo.mktrn.net - - [28/Aug/2016:01:50:34 UTC] "GET http://x.clixtraff.online/check_content HTTP/1.1" 404 454
+- -> http://x.clixtraff.online/check_content
+64.31.1.3 - - [29/Aug/2016 23:31:16] "GET /check_content HTTP/1.1" 404 454 0.0019
+naboo.mktrn.net - - [29/Aug/2016:23:31:16 UTC] "GET http://x.clixtraff.online/check_content HTTP/1.1" 404 454
+- -> http://x.clixtraff.online/check_content
+64.31.1.3 - - [31/Aug/2016 00:50:58] "GET /check_content HTTP/1.1" 404 454 0.0019
+naboo.mktrn.net - - [31/Aug/2016:00:50:58 UTC] "GET http://x.clixtraff.online/check_content HTTP/1.1" 404 454
+- -> http://x.clixtraff.online/check_content
+106.39.60.188 - - [01/Sep/2016 04:14:29] "GET / HTTP/1.1" 404 438 0.0050
+106.39.60.188 - - [01/Sep/2016:04:14:29 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+106.39.60.188 - - [01/Sep/2016 04:14:29] "GET / HTTP/1.1" 404 438 0.0018
+106.39.60.188 - - [01/Sep/2016:04:14:29 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+71.6.135.131 - - [05/Sep/2016 18:29:51] "GET / HTTP/1.1" 404 438 0.0025
+census7.shodan.io - - [05/Sep/2016:18:29:51 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+71.6.135.131 - - [05/Sep/2016 18:29:52] "GET /robots.txt HTTP/1.1" 404 448 0.0008
+census7.shodan.io - - [05/Sep/2016:18:29:52 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+71.6.135.131 - - [05/Sep/2016 18:29:52] "GET /sitemap.xml HTTP/1.1" 404 449 0.0011
+census7.shodan.io - - [05/Sep/2016:18:29:52 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+198.20.70.114 - - [06/Sep/2016 14:14:30] "GET / HTTP/1.1" 404 438 0.0025
+census3.shodan.io - - [06/Sep/2016:14:14:30 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+198.20.70.114 - - [06/Sep/2016 14:14:30] "GET /robots.txt HTTP/1.1" 404 448 0.0007
+census3.shodan.io - - [06/Sep/2016:14:14:30 UTC] "GET /robots.txt HTTP/1.1" 404 448
+- -> /robots.txt
+198.20.70.114 - - [06/Sep/2016 14:14:30] "GET /sitemap.xml HTTP/1.1" 404 449 0.0010
+census3.shodan.io - - [06/Sep/2016:14:14:30 UTC] "GET /sitemap.xml HTTP/1.1" 404 449
+- -> /sitemap.xml
+[2016-09-06 14:14:31] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+125.64.94.200 - - [06/Sep/2016 18:16:01] "GET / HTTP/1.1" 404 451 0.0029
+125.64.94.200 - - [06/Sep/2016:18:16:01 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+222.189.206.51 - - [07/Sep/2016 03:53:10] "OPTIONS / HTTP/1.1" 404 442 0.0025
+222.189.206.51 - - [07/Sep/2016:03:53:10 UTC] "OPTIONS / HTTP/1.1" 404 442
+- -> /
+[2016-09-15 22:36:21] ERROR bad URI `Public'.
+no-reverse-dns-configured.com - - [15/Sep/2016:22:36:21 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+80.82.65.212 - - [18/Sep/2016 23:21:13] "GET / HTTP/1.1" 404 438 0.0061
+no-reverse-dns-configured.com - - [18/Sep/2016:23:21:13 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-09-22 19:49:59] ERROR bad URI `Public'.
+pirate.census.shodan.io - - [22/Sep/2016:19:49:59 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-09-26 20:31:11] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+69.164.201.113 - - [26/Sep/2016 20:31:11] "GET / HTTP/1.1" 404 451 0.0093
+li115-113.members.linode.com - - [26/Sep/2016:20:31:11 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 20:36:21] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+69.164.196.196 - - [26/Sep/2016 20:36:21] "GET / HTTP/1.1" 404 451 0.0007
+li111-196.members.linode.com - - [26/Sep/2016:20:36:21 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 20:46:33] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+50.116.55.73 - - [26/Sep/2016 20:46:33] "GET / HTTP/1.1" 404 451 0.0006
+li441-73.members.linode.com - - [26/Sep/2016:20:46:33 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 20:52:14] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.190.241 - - [26/Sep/2016 20:52:15] "GET / HTTP/1.1" 404 451 0.0016
+li1507-241.members.linode.com - - [26/Sep/2016:20:52:15 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 21:02:22] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+188.166.61.200 - - [26/Sep/2016 21:02:22] "GET / HTTP/1.1" 404 451 0.0036
+188.166.61.200 - - [26/Sep/2016:21:02:22 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 21:02:51] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+213.219.36.234 - - [26/Sep/2016 21:02:52] "GET / HTTP/1.1" 404 451 0.0007
+li1095-234.members.linode.com - - [26/Sep/2016:21:02:52 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 21:13:05] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+69.164.206.51 - - [26/Sep/2016 21:13:07] "GET / HTTP/1.1" 404 451 0.0023
+li120-51.members.linode.com - - [26/Sep/2016:21:13:07 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 21:28:54] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.228.15 - - [26/Sep/2016 21:28:54] "GET / HTTP/1.1" 404 451 0.0019
+li1513-15.members.linode.com - - [26/Sep/2016:21:28:54 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 21:32:56] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.236.251 - - [26/Sep/2016 21:32:57] "GET / HTTP/1.1" 404 451 0.0010
+li1521-251.members.linode.com - - [26/Sep/2016:21:32:57 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 22:08:00] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+50.116.23.104 - - [26/Sep/2016 22:08:01] "GET / HTTP/1.1" 404 451 0.0017
+li429-104.members.linode.com - - [26/Sep/2016:22:08:01 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 22:09:30] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+46.101.193.127 - - [26/Sep/2016 22:09:30] "GET / HTTP/1.1" 404 451 0.0007
+46.101.193.127 - - [26/Sep/2016:22:09:30 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 22:29:03] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+66.228.39.212 - - [26/Sep/2016 22:29:03] "GET / HTTP/1.1" 404 451 0.0038
+li289-212.members.linode.com - - [26/Sep/2016:22:29:03 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 22:32:05] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+69.164.196.153 - - [26/Sep/2016 22:32:05] "GET / HTTP/1.1" 404 451 0.0013
+li111-153.members.linode.com - - [26/Sep/2016:22:32:05 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 22:35:06] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+212.71.253.43 - - [26/Sep/2016 22:35:06] "GET / HTTP/1.1" 404 451 0.0019
+li626-43.members.linode.com - - [26/Sep/2016:22:35:06 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 22:43:57] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+178.62.224.34 - - [26/Sep/2016 22:43:57] "GET / HTTP/1.1" 404 451 0.0015
+178.62.224.34 - - [26/Sep/2016:22:43:57 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 22:51:35] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.170.119 - - [26/Sep/2016 22:51:35] "GET / HTTP/1.1" 404 451 0.0009
+li1487-119.members.linode.com - - [26/Sep/2016:22:51:35 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 22:52:36] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.172.71 - - [26/Sep/2016 22:52:36] "GET / HTTP/1.1" 404 451 0.0008
+li1489-71.members.linode.com - - [26/Sep/2016:22:52:36 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 22:56:40] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+69.164.205.7 - - [26/Sep/2016 22:56:40] "GET / HTTP/1.1" 404 451 0.0009
+li119-7.members.linode.com - - [26/Sep/2016:22:56:40 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 23:03:28] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.228.15 - - [26/Sep/2016 23:03:28] "GET / HTTP/1.1" 404 451 0.0011
+li1513-15.members.linode.com - - [26/Sep/2016:23:03:28 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 23:03:52] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.59.150.77 - - [26/Sep/2016 23:03:52] "GET / HTTP/1.1" 404 451 0.0012
+139.59.150.77 - - [26/Sep/2016:23:03:52 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 23:08:01] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+109.237.27.142 - - [26/Sep/2016 23:08:02] "GET / HTTP/1.1" 404 451 0.0025
+li1094-142.members.linode.com - - [26/Sep/2016:23:08:02 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 23:08:48] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+96.126.111.38 - - [26/Sep/2016 23:08:48] "GET / HTTP/1.1" 404 451 0.0009
+li368-38.members.linode.com - - [26/Sep/2016:23:08:48 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 23:15:33] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+66.175.208.182 - - [26/Sep/2016 23:15:33] "GET / HTTP/1.1" 404 451 0.0016
+li505-182.members.linode.com - - [26/Sep/2016:23:15:33 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 23:23:22] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.176.196 - - [26/Sep/2016 23:23:22] "GET / HTTP/1.1" 404 451 0.0011
+li1493-196.members.linode.com - - [26/Sep/2016:23:23:22 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 23:38:34] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.187.232 - - [26/Sep/2016 23:38:34] "GET / HTTP/1.1" 404 451 0.0017
+li1504-232.members.linode.com - - [26/Sep/2016:23:38:34 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-26 23:52:15] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+178.62.224.34 - - [26/Sep/2016 23:52:15] "GET / HTTP/1.1" 404 451 0.0018
+178.62.224.34 - - [26/Sep/2016:23:52:15 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 00:03:54] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+128.199.57.164 - - [27/Sep/2016 00:03:54] "GET / HTTP/1.1" 404 451 0.0024
+128.199.57.164 - - [27/Sep/2016:00:03:54 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 00:05:51] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.166.224 - - [27/Sep/2016 00:05:51] "GET / HTTP/1.1" 404 451 0.0011
+li1483-224.members.linode.com - - [27/Sep/2016:00:05:51 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 00:13:31] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+162.243.31.157 - - [27/Sep/2016 00:13:31] "GET / HTTP/1.1" 404 451 0.0021
+162.243.31.157 - - [27/Sep/2016:00:13:31 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 00:15:29] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+97.107.136.228 - - [27/Sep/2016 00:15:29] "GET / HTTP/1.1" 404 451 0.0008
+li97-228.members.linode.com - - [27/Sep/2016:00:15:29 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 00:19:30] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+162.243.31.157 - - [27/Sep/2016 00:19:30] "GET / HTTP/1.1" 404 451 0.0007
+162.243.31.157 - - [27/Sep/2016:00:19:30 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 00:23:21] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+45.33.11.136 - - [27/Sep/2016 00:23:21] "GET / HTTP/1.1" 404 451 0.0015
+li965-136.members.linode.com - - [27/Sep/2016:00:23:21 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 00:32:43] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+213.219.36.234 - - [27/Sep/2016 00:32:43] "GET / HTTP/1.1" 404 451 0.0008
+li1095-234.members.linode.com - - [27/Sep/2016:00:32:43 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 00:36:37] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+188.166.61.181 - - [27/Sep/2016 00:36:37] "GET / HTTP/1.1" 404 451 0.0010
+188.166.61.181 - - [27/Sep/2016:00:36:37 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 00:51:49] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+212.71.253.43 - - [27/Sep/2016 00:51:49] "GET / HTTP/1.1" 404 451 0.0061
+li626-43.members.linode.com - - [27/Sep/2016:00:51:49 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 00:53:55] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+188.166.61.181 - - [27/Sep/2016 00:53:55] "GET / HTTP/1.1" 404 451 0.0027
+188.166.61.181 - - [27/Sep/2016:00:53:55 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 01:01:46] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+69.164.207.238 - - [27/Sep/2016 01:01:46] "GET / HTTP/1.1" 404 451 0.0016
+li121-238.members.linode.com - - [27/Sep/2016:01:01:46 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 01:02:27] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+162.243.37.85 - - [27/Sep/2016 01:02:27] "GET / HTTP/1.1" 404 451 0.0013
+162.243.37.85 - - [27/Sep/2016:01:02:27 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 01:06:18] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+50.116.23.104 - - [27/Sep/2016 01:06:18] "GET / HTTP/1.1" 404 451 0.0046
+li429-104.members.linode.com - - [27/Sep/2016:01:06:18 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 01:09:47] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.176.196 - - [27/Sep/2016 01:09:48] "GET / HTTP/1.1" 404 451 0.0012
+li1493-196.members.linode.com - - [27/Sep/2016:01:09:48 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 01:13:35] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+96.126.111.38 - - [27/Sep/2016 01:13:36] "GET / HTTP/1.1" 404 451 0.0010
+li368-38.members.linode.com - - [27/Sep/2016:01:13:36 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-09-27 01:21:23] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.163.91 - - [27/Sep/2016 01:21:23] "GET / HTTP/1.1" 404 451 0.0007
+li1480-91.members.linode.com - - [27/Sep/2016:01:21:23 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+93.174.95.106 - - [27/Sep/2016 12:46:36] "GET / HTTP/1.1" 404 438 0.0017
+93.174.95.106 - - [27/Sep/2016:12:46:36 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+5.189.190.219 - - [28/Sep/2016 18:03:41] "GET / HTTP/1.1" 404 438 0.0018
+m2626.contabo.host - - [28/Sep/2016:18:03:41 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+71.6.146.185 - - [28/Sep/2016 22:43:07] "GET / HTTP/1.1" 404 438 0.0029
+pirate.census.shodan.io - - [28/Sep/2016:22:43:07 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+198.20.69.98 - - [05/Oct/2016 18:51:00] "GET / HTTP/1.1" 404 438 0.0100
+census2.shodan.io - - [05/Oct/2016:18:51:00 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+54.226.208.6 - - [07/Oct/2016 18:32:38] "GET / HTTP/1.1" 404 438 0.0020
+ec2-54-226-208-6.compute-1.amazonaws.com - - [07/Oct/2016:18:32:38 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-10-08 10:51:23] ERROR bad URI `Public'.
+ninja.census.shodan.io - - [08/Oct/2016:10:51:23 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+222.186.58.220 - - [13/Oct/2016 01:29:42] "GET / HTTP/1.1" 404 438 0.0189
+222.186.58.220 - - [13/Oct/2016:01:29:42 UTC] "GET / HTTP/1.1" 404 438
+http://107.170.0.82:82/ -> /
+[2016-10-15 08:02:32] ERROR bad Request-Line `\x16\x03\x02\x00Ü\x01\x00\x00Ø\x03\x02SC[›r\v¼\f¼+’¨H—Ï½9\x04Ì\x16'.
+46.172.91.2 - - [15/Oct/2016:08:02:32 UTC] "\x16\x03\x02\x00Ü\x01\x00\x00Ø\x03\x02SC[›r\v¼\f¼+’¨H—Ï½9\x04Ì\x16" 400 346
+- -> 
+54.71.114.20 - - [16/Oct/2016 00:20:02] "GET / HTTP/1.1" 404 438 0.0017
+ec2-54-71-114-20.us-west-2.compute.amazonaws.com - - [16/Oct/2016:00:20:02 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+54.71.114.20 - - [16/Oct/2016 00:20:02] "GET /HNAP1/ HTTP/1.1" 404 444 0.0017
+ec2-54-71-114-20.us-west-2.compute.amazonaws.com - - [16/Oct/2016:00:20:02 UTC] "GET /HNAP1/ HTTP/1.1" 404 444
+http://107.170.0.82:82/ -> /HNAP1/
+[2016-10-19 17:59:26] ERROR bad URI `/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js'.
+CableLink-187-160-203-202.PCs.InterCable.net - - [19/Oct/2016:17:59:26 UTC] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 400 354
+- -> /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+[2016-10-21 07:22:57] ERROR bad Request-Line `\x16\x03\x01\x00Œ\x01\x00\x00ˆ\x03\x03 \x1EËo%Íª\x02ŽêÇw)>9\x1EˆG%†HyæCÑøSI\x13­\x17ê\x00\x00.À+À/\x00ž\x00œÀ'.
+163-172-68-183.rev.poneytelecom.eu - - [21/Oct/2016:07:22:57 UTC] "\x16\x03\x01\x00Œ\x01\x00\x00ˆ\x03\x03 \x1EËo%Íª\x02ŽêÇw)>9\x1EˆG%†HyæCÑøSI\x13­\x17ê\x00\x00.À+À/\x00ž\x00œÀ" 400 390
+- -> 
+163.172.68.183 - - [21/Oct/2016 07:39:50] "GET /admin/config.php HTTP/1.1" 404 454 0.0026
+163-172-68-183.rev.poneytelecom.eu - - [21/Oct/2016:07:39:50 UTC] "GET //admin/config.php HTTP/1.1" 404 454
+- -> /admin/config.php
+[2016-10-21 20:21:26] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.172.71 - - [21/Oct/2016 20:21:26] "GET / HTTP/1.1" 404 451 0.0016
+min-09-02-30178-de-c-prod.binaryedge.ninja - - [21/Oct/2016:20:21:26 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-10-24 02:58:10] ERROR bad URI `/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js'.
+CableLink-187-160-183-67.PCs.InterCable.net - - [24/Oct/2016:02:58:10 UTC] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 400 354
+- -> /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+[2016-10-25 11:04:20] ERROR bad URI `Public'.
+census9.shodan.io - - [25/Oct/2016:11:04:20 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-10-28 14:09:25] ERROR bad URI `/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js'.
+CableLink-173-137-206.CPE.InterCable.net - - [28/Oct/2016:14:09:25 UTC] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 400 354
+- -> /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+[2016-10-30 19:47:42] ERROR bad URI `Public'.
+ninja.census.shodan.io - - [30/Oct/2016:19:47:42 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-10-30 20:57:38] ERROR bad URI `Public'.
+census3.shodan.io - - [30/Oct/2016:20:57:38 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-10-31 21:24:01] ERROR bad URI `Public'.
+census9.shodan.io - - [31/Oct/2016:21:24:01 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2016-10-31 21:24:02] ERROR bad URI `Public'.
+burger.census.shodan.io - - [31/Oct/2016:21:24:02 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+80.82.65.212 - - [01/Nov/2016 19:07:01] "GET / HTTP/1.1" 404 438 0.0065
+no-reverse-dns-configured.com - - [01/Nov/2016:19:07:01 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-11-01 20:42:57] ERROR TypeError: can't dup NilClass
+	/usr/lib/ruby/1.9.1/webrick/httprequest.rb:273:in `dup'
+	/usr/lib/ruby/1.9.1/webrick/httprequest.rb:273:in `meta_vars'
+	/var/lib/gems/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:35:in `service'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+ec2-52-57-241-99.eu-central-1.compute.amazonaws.com - - [01/Nov/2016:20:42:57 UTC] "CONNECT 54.90.189.128:80 HTTP/1.1" 500 296
+- -> 54.90.189.128:80
+[2016-11-02 05:12:57] ERROR bad URI `/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js'.
+CableLink-187-161-159-220.PCs.InterCable.net - - [02/Nov/2016:05:12:57 UTC] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 400 354
+- -> /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+66.240.192.138 - - [03/Nov/2016 10:17:10] "GET / HTTP/1.1" 404 438 0.0031
+census8.shodan.io - - [03/Nov/2016:10:17:10 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-11-06 08:24:10] ERROR bad URI `/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js'.
+CableLink-173-205-13.CPE.InterCable.net - - [06/Nov/2016:08:24:10 UTC] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 400 354
+- -> /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+14.134.4.5 - - [06/Nov/2016 17:08:53] "GET / HTTP/1.1" 404 451 0.0008
+14.134.4.5 - - [06/Nov/2016:17:08:53 UTC] "GET / HTTP/1.1" 404 451
+- -> /
+118.184.4.4 - - [06/Nov/2016 19:45:48] "GET / HTTP/1.1" 404 451 0.0022
+118.184.4.4 - - [06/Nov/2016:19:45:48 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+118.184.4.4 - - [06/Nov/2016 19:45:58] "GET / HTTP/1.1" 404 451 0.0011
+118.184.4.4 - - [06/Nov/2016:19:45:58 UTC] "GET / HTTP/1.1" 404 451
+- -> /
+118.184.4.4 - - [06/Nov/2016 19:45:58] "GET /robots.txt HTTP/1.1" 404 461 0.0012
+118.184.4.4 - - [06/Nov/2016:19:45:58 UTC] "GET /robots.txt HTTP/1.1" 404 461
+- -> /robots.txt
+118.184.4.4 - - [06/Nov/2016 19:45:58] "GET / HTTP/1.1" 404 451 0.0008
+118.184.4.4 - - [06/Nov/2016:19:45:58 UTC] "GET / HTTP/1.1" 404 451
+- -> /
+[2016-11-12 11:37:20] ERROR bad URI `/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js'.
+CableLink-187-160-97-213.PCs.InterCable.net - - [12/Nov/2016:11:37:20 UTC] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 400 354
+- -> /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+46.165.208.194 - - [12/Nov/2016 17:39:21] "GET / HTTP/1.1" 404 438 0.0049
+hosted-by.leaseweb.com - - [12/Nov/2016:17:39:21 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+93.174.95.106 - - [13/Nov/2016 22:14:41] "GET / HTTP/1.1" 404 438 0.0015
+93.174.95.106 - - [13/Nov/2016:22:14:41 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-11-20 20:19:13] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.170.132 - - [20/Nov/2016 20:19:13] "GET / HTTP/1.1" 404 451 0.0069
+min-09-24-17672-de-a-prod.binaryedge.ninja - - [20/Nov/2016:20:19:13 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-11-23 09:50:15] ERROR bad URI `Public'.
+pirate.census.shodan.io - - [23/Nov/2016:09:50:15 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+71.6.158.166 - - [24/Nov/2016 23:13:10] "GET / HTTP/1.1" 404 438 0.0016
+ninja.census.shodan.io - - [24/Nov/2016:23:13:10 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+198.20.87.98 - - [26/Nov/2016 12:07:49] "GET / HTTP/1.1" 404 438 0.0020
+border.census.shodan.io - - [26/Nov/2016:12:07:49 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+46.166.137.222 - - [27/Nov/2016 18:45:28] "GET / HTTP/1.1" 404 438 0.0015
+46.166.137.222 - - [27/Nov/2016:18:45:28 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+91.230.121.73 - - [29/Nov/2016 03:01:13] "GET / HTTP/1.1" 404 451 0.0017
+91.230.121.73 - - [29/Nov/2016:03:01:13 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+80.82.65.90 - - [04/Dec/2016 06:56:07] "GET /recordings/ HTTP/1.1" 404 449 0.0127
+no-reverse-dns-configured.com - - [04/Dec/2016:06:56:07 UTC] "GET /recordings/ HTTP/1.1" 404 449
+- -> /recordings/
+77.37.152.99 - - [04/Dec/2016 13:53:02] "GET / HTTP/1.1" 404 438 0.0016
+broadband-77-37-152-99.nationalcablenetworks.ru - - [04/Dec/2016:13:53:02 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+198.20.87.98 - - [06/Dec/2016 09:21:26] "GET / HTTP/1.1" 404 438 0.0018
+border.census.shodan.io - - [06/Dec/2016:09:21:26 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+71.6.135.131 - - [08/Dec/2016 13:52:18] "GET / HTTP/1.1" 404 438 0.0020
+census7.shodan.io - - [08/Dec/2016:13:52:18 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-12-10 02:06:38] ERROR bad URI `Public'.
+ninja.census.shodan.io - - [10/Dec/2016:02:06:38 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+93.115.83.16 - - [12/Dec/2016 12:46:16] "GET / HTTP/1.1" 404 438 0.0030
+lh21604.voxility.net - - [12/Dec/2016:12:46:16 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+125.64.94.200 - - [14/Dec/2016 02:14:49] "GET / HTTP/1.1" 404 451 0.0025
+125.64.94.200 - - [14/Dec/2016:02:14:49 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2016-12-18 14:56:26] ERROR bad URI `Public'.
+burger.census.shodan.io - - [18/Dec/2016:14:56:26 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+52.198.110.239 - - [21/Dec/2016 16:17:33] "GET / HTTP/1.1" 404 438 0.0060
+ec2-52-198-110-239.ap-northeast-1.compute.amazonaws.com - - [21/Dec/2016:16:17:33 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+89.248.167.131 - - [22/Dec/2016 18:16:08] "GET / HTTP/1.1" 404 438 0.0022
+no-reverse-dns-configured.com - - [22/Dec/2016:18:16:08 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-12-24 10:05:51] ERROR bad URI `Public'.
+ninja.census.shodan.io - - [24/Dec/2016:10:05:51 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+71.6.146.185 - - [25/Dec/2016 02:30:12] "GET / HTTP/1.1" 404 438 0.0008
+pirate.census.shodan.io - - [25/Dec/2016:02:30:12 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2016-12-27 17:11:12] ERROR bad URI `/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js'.
+badec228.virtua.com.br - - [27/Dec/2016:17:11:12 UTC] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 400 354
+- -> /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+222.178.90.43 - - [28/Dec/2016 18:11:47] "GET /shell?id HTTP/1.1" 404 443 0.0019
+222.178.90.43 - - [28/Dec/2016:18:11:47 UTC] "GET /shell?id HTTP/1.1" 404 443
+- -> /shell?id
+66.240.192.138 - - [31/Dec/2016 11:49:30] "GET / HTTP/1.1" 404 438 0.0031
+census8.shodan.io - - [31/Dec/2016:11:49:30 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2017-01-01 14:59:57] ERROR bad URI `/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js'.
+bd3717a0.virtua.com.br - - [01/Jan/2017:14:59:57 UTC] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 400 354
+- -> /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+[2017-01-04 00:35:46] ERROR bad URI `Public'.
+census3.shodan.io - - [04/Jan/2017:00:35:46 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+217.118.84.185 - - [05/Jan/2017 17:36:19] "GET /axis-cgi/jpg/image.cgi HTTP/1.1" 404 457 0.0033
+217.118.84.185 - - [05/Jan/2017:17:36:19 UTC] "GET /axis-cgi/jpg/image.cgi HTTP/1.1" 404 457
+1 -> /axis-cgi/jpg/image.cgi
+[2017-01-07 03:04:24] ERROR bad URI `/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js'.
+bd643ae6.virtua.com.br - - [07/Jan/2017:03:04:24 UTC] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 400 354
+- -> /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+14.134.10.3 - - [07/Jan/2017 15:01:16] "GET / HTTP/1.1" 404 438 0.0035
+14.134.10.3 - - [07/Jan/2017:15:01:16 UTC] "GET / HTTP/1.0" 404 438
+- -> /
+[2017-01-08 18:32:51] ERROR bad URI `Public'.
+census3.shodan.io - - [08/Jan/2017:18:32:51 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+5.157.7.130 - - [13/Jan/2017 11:32:15] "GET / HTTP/1.1" 404 438 0.0021
+5.157.7.130 - - [13/Jan/2017:11:32:15 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+[2017-01-13 22:47:29] ERROR bad URI `/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js'.
+b5dee69a.virtua.com.br - - [13/Jan/2017:22:47:29 UTC] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 400 354
+- -> /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+71.6.167.142 - - [14/Jan/2017 19:09:04] "GET / HTTP/1.1" 404 438 0.0024
+census9.shodan.io - - [14/Jan/2017:19:09:04 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+71.6.158.166 - - [14/Jan/2017 19:29:06] "GET / HTTP/1.1" 404 438 0.0017
+ninja.census.shodan.io - - [14/Jan/2017:19:29:06 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+71.6.165.200 - - [14/Jan/2017 21:04:50] "GET / HTTP/1.1" 404 438 0.0021
+census12.shodan.io - - [14/Jan/2017:21:04:50 UTC] "GET / HTTP/1.1" 404 438
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:38:31] "GET / HTTP/1.1" 404 451 0.0021
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:38:31 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:41:58] "GET / HTTP/1.1" 404 448 0.0012
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:41:58 UTC] "GET / HTTP/1.1" 404 448
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:41:58] "GET / HTTP/1.1" 404 451 0.0006
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:41:58 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:00] "GET / HTTP/1.1" 404 448 0.0009
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:00 UTC] "GET / HTTP/1.1" 404 448
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:09] "GET / HTTP/1.1" 404 448 0.0008
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:09 UTC] "GET / HTTP/1.1" 404 448
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:22] "GET /browseDirectory.jsp HTTP/1.1" 404 467 0.0031
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:22 UTC] "GET /browseDirectory.jsp HTTP/1.1" 404 467
+- -> /browseDirectory.jsp
+79.114.42.250 - - [19/Jan/2017 12:42:32] "OPTIONS / HTTP/1.1" 404 452 0.0015
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:32 UTC] "OPTIONS / HTTP/1.1" 404 452
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:32] "OPTIONS / HTTP/1.1" 404 452 0.0007
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:32 UTC] "OPTIONS / HTTP/1.1" 404 452
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:32] "OPTIONS / HTTP/1.1" 404 452 0.0010
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:32 UTC] "OPTIONS / HTTP/1.1" 404 452
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:33] "OPTIONS / HTTP/1.1" 404 452 0.0009
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:33 UTC] "OPTIONS / HTTP/1.1" 404 452
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:33] "OPTIONS / HTTP/1.1" 404 452 0.0007
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:33 UTC] "OPTIONS / HTTP/1.1" 404 452
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:34] "OPTIONS / HTTP/1.1" 404 452 0.0007
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:34 UTC] "OPTIONS / HTTP/1.1" 404 452
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:34] "OPTIONS / HTTP/1.1" 404 452 0.0009
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:34 UTC] "OPTIONS / HTTP/1.1" 404 452
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:35] "OPTIONS / HTTP/1.1" 404 452 0.0011
+79.114.42.250 - - [19/Jan/2017 12:42:35] "OPTIONS / HTTP/1.1" 404 452 0.0010
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:35 UTC] "OPTIONS / HTTP/1.1" 404 452
+- -> /
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:35 UTC] "OPTIONS / HTTP/1.1" 404 452
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:35] "PROPFIND / HTTP/1.1" 404 453 0.0011
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:35 UTC] "PROPFIND / HTTP/1.1" 404 453
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:35] "OPTIONS / HTTP/1.1" 404 452 0.0011
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:35 UTC] "OPTIONS / HTTP/1.1" 404 452
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:42:41] "GET /master.jsp HTTP/1.1" 404 458 0.0007
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:41 UTC] "GET /master.jsp HTTP/1.1" 404 458
+- -> /master.jsp
+79.114.42.250 - - [19/Jan/2017 12:42:44] "GET /robots.txt HTTP/1.1" 404 458 0.0007
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:44 UTC] "GET /robots.txt HTTP/1.1" 404 458
+- -> /robots.txt
+79.114.42.250 - - [19/Jan/2017 12:42:49] "GET /jobtracker.jsp HTTP/1.1" 404 462 0.0008
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:49 UTC] "GET /jobtracker.jsp HTTP/1.1" 404 462
+- -> /jobtracker.jsp
+79.114.42.250 - - [19/Jan/2017 12:42:50] "GET /dfshealth.jsp HTTP/1.1" 404 461 0.0007
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:50 UTC] "GET /dfshealth.jsp HTTP/1.1" 404 461
+- -> /dfshealth.jsp
+79.114.42.250 - - [19/Jan/2017 12:42:53] "GET /flumemaster.jsp HTTP/1.1" 404 463 0.0006
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:42:53 UTC] "GET /flumemaster.jsp HTTP/1.1" 404 463
+- -> /flumemaster.jsp
+79.114.42.250 - - [19/Jan/2017 12:43:10] "GET /rs-status HTTP/1.1" 404 457 0.0009
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:10 UTC] "GET /rs-status HTTP/1.1" 404 457
+- -> /rs-status
+79.114.42.250 - - [19/Jan/2017 12:43:21] "GET /.git/HEAD HTTP/1.1" 404 457 0.0011
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:21 UTC] "GET /.git/HEAD HTTP/1.1" 404 457
+- -> /.git/HEAD
+79.114.42.250 - - [19/Jan/2017 12:43:21] "OPTIONS / HTTP/1.1" 404 452 0.0007
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:21 UTC] "OPTIONS / HTTP/1.1" 404 452
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:43:21] "GKOH / HTTP/1.1" 404 449 0.0007
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:21 UTC] "GKOH / HTTP/1.1" 404 449
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:43:21] "GET / HTTP/1.1" 404 448 0.0008
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:21 UTC] "GET / HTTP/1.1" 404 448
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:43:22] "HEAD / HTTP/1.1" 404 449 0.0007
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:22 UTC] "HEAD / HTTP/1.1" 404 0
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:43:22] "POST / HTTP/1.1" 404 449 0.0009
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:22 UTC] "POST / HTTP/1.1" 404 449
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:43:22] "OPTIONS / HTTP/1.1" 404 452 0.0010
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:22 UTC] "OPTIONS / HTTP/1.1" 404 452
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:43:26] "PROPFIND / HTTP/1.1" 404 453 0.0010
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:26 UTC] "PROPFIND / HTTP/1.1" 404 453
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:43:27] "GET /tasktracker.jsp HTTP/1.1" 404 463 0.0008
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:27 UTC] "GET /tasktracker.jsp HTTP/1.1" 404 463
+- -> /tasktracker.jsp
+79.114.42.250 - - [19/Jan/2017 12:43:31] "POST / HTTP/1.1" 404 449 0.0010
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:31 UTC] "POST / HTTP/1.1" 404 449
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:43:41] "PROPFIND / HTTP/1.1" 404 453 0.0007
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:41 UTC] "PROPFIND / HTTP/1.1" 404 453
+- -> /
+79.114.42.250 - - [19/Jan/2017 12:43:45] "GET /status.jsp HTTP/1.1" 404 458 0.0008
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:45 UTC] "GET /status.jsp HTTP/1.1" 404 458
+- -> /status.jsp
+79.114.42.250 - - [19/Jan/2017 12:43:54] "GET /nmaplowercheck1484829715 HTTP/1.1" 404 472 0.0009
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:54 UTC] "GET /nmaplowercheck1484829715 HTTP/1.1" 404 472
+- -> /nmaplowercheck1484829715
+79.114.42.250 - - [19/Jan/2017 12:43:55] "GET /HNAP1 HTTP/1.1" 404 453 0.0011
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:55 UTC] "GET /HNAP1 HTTP/1.1" 404 453
+- -> /HNAP1
+79.114.42.250 - - [19/Jan/2017 12:43:59] "GET /favicon.ico HTTP/1.1" 404 459 0.0012
+79-114-42-250.rdsnet.ro - - [19/Jan/2017:12:43:59 UTC] "GET /favicon.ico HTTP/1.1" 404 459
+- -> /favicon.ico
+[2017-01-20 14:25:23] ERROR Errno::ECONNRESET: Connection reset by peer
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `eof?'
+	/usr/lib/ruby/1.9.1/webrick/httpserver.rb:80:in `run'
+	/usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+139.162.161.215 - - [20/Jan/2017 14:25:23] "GET / HTTP/1.1" 404 451 0.0023
+li1478-215.members.linode.com - - [20/Jan/2017:14:25:23 UTC] "GET / HTTP/1.0" 404 451
+- -> /
+[2017-01-24 00:09:00] ERROR bad URI `/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js'.
+bb253da2.virtua.com.br - - [24/Jan/2017:00:09:00 UTC] "GET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js HTTP/1.0" 400 354
+- -> /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js
+185.169.229.60 - - [31/Jan/2017 02:09:29] "GET /public.js HTTP/1.1" 404 460 0.0070
+185.169.229.60 - - [31/Jan/2017:02:09:29 UTC] "GET /public.js HTTP/1.0" 404 460
+- -> /public.js
+185.169.229.60 - - [31/Jan/2017 04:28:56] "GET /script/live.js HTTP/1.1" 404 465 0.0044
+185.169.229.60 - - [31/Jan/2017:04:28:56 UTC] "GET /script/live.js HTTP/1.0" 404 465
+- -> /script/live.js
+[2017-02-01 00:02:06] ERROR bad URI `Public'.
+census9.shodan.io - - [01/Feb/2017:00:02:06 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+163.172.99.189 - - [02/Feb/2017 08:20:46] "GET /recordings/index.php HTTP/1.1" 404 458 0.0021
+163-172-99-189.rev.poneytelecom.eu - - [02/Feb/2017:08:20:46 UTC] "GET /recordings/index.php HTTP/1.1" 404 458
+- -> /recordings/index.php
+[2017-02-04 10:35:15] ERROR bad URI `Public'.
+ninja.census.shodan.io - - [04/Feb/2017:10:35:15 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2017-02-04 15:41:20] ERROR bad URI `Public'.
+census7.shodan.io - - [04/Feb/2017:15:41:20 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+[2017-02-05 09:25:45] ERROR bad URI `Public'.
+census12.shodan.io - - [05/Feb/2017:09:25:45 UTC] "myversion|3.6 Public" 400 275
+- -> Public
+== Sinatra has ended his set (crowd applauds)
+[2017-02-07 20:27:36] INFO  going to shutdown ...
+[2017-02-07 20:27:36] INFO  WEBrick::HTTPServer#start done.
